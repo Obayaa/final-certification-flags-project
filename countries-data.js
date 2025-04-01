@@ -106,7 +106,7 @@ const countries = [
         flag: "https://flagcdn.com/bt.svg",
     },
     {
-        name: "Bolivia (Plurinational State of)",
+        name: "Bolivia",
         flag: "https://flagcdn.com/bo.svg",
     },
     {
