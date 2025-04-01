@@ -2,9 +2,9 @@
 :root {
   --primary-color: #0153a5;
   --background-color: #e6f0ff;
-  --card-bg-color: #f2f6f9;
+  --card-bg-color: #f0f7fe;
   --text-color: #333333;
-  --accent-color: #dcaa17;
+  --accent-color: #e67e22;
   --shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   --border-radius: 6px;
   --transition: all 0.3s ease;
@@ -21,7 +21,6 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.4;
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
 }
