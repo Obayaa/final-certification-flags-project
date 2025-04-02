@@ -135,7 +135,7 @@ body {
   grid-column: 1 / -1;
   text-align: center;
   padding: 2rem;
-  color: #e74c3c;
+  color: var(--accent-color);
   font-size: 1.1rem;
 }
 
