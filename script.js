@@ -12,7 +12,7 @@ const title = document.createElement("h1");
 title.textContent = "World Flags Explorer";
 header.appendChild(title);
 
-// Search input (without button)
+// Search input
 const searchContainer = document.createElement("div");
 searchContainer.classList.add("search-container");
 
@@ -87,7 +87,7 @@ renderCountries();
 // Create footer
 const footer = document.createElement("footer");
 footer.classList.add("footer");
-footer.innerHTML = `<p>© ${new Date().getFullYear()} World Flags Explorer | All flags sourced from flagcdn.com</p>`;
+footer.innerHTML = `<p>© ${new Date().getFullYear()} World Flags Explorer | Project from Zerebel. Made by Obaayaa.</p>`;
 
 // Build the DOM structure
 document.body.appendChild(header);
